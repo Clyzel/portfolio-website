@@ -13,3 +13,14 @@ form {
     margin: 0 auto;
     width: 600px;
 }
+
+.img {
+    width: 100%;
+}
+
+@media(max-width: 420px) {
+    .img {
+        width: 32%;
+        display: url('file:///Users/tpl_1121_6/20220204_142508.png');
+    }
+}
