@@ -3,7 +3,7 @@
   .formbox { 
     box-sizing: border-box;
     width: 100%;
-    border: 100px solid black;
+    border: 10px solid black;
     float: left;
     align-content: center;
     align-items: center;
@@ -14,12 +14,12 @@ form {
     width: 600px;
 }
 
-.img {
+.img-thumbnail{
     width: 100%;
 }
 
 @media(max-width: 420px) {
-    .img {
+    .img-thumbnail {
         width: 32%;
         display: url('file:///Users/tpl_1121_6/20220204_142508.png');
     }
