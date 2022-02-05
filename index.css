@@ -18,9 +18,22 @@ form {
     width: 100%;
 }
 
-@media(max-width: 420px) {
+/* hide the second image at first */
+.img-thumbnail2{
+	display: none;
+}
+
+@media (max-width: 768px) {
+
+    /* hide the first image when its resized */
     .img-thumbnail {
         width: 32%;
-        display: url('file:///Users/tpl_1121_6/20220204_142508.png');
+        display: none;
+        background-image: url('file:///Users/tpl_1121_6/20220204_142508.png');
+    }
+
+    .img-thumbnail2 {
+		display: block;
+        background-image: url('file:///Users/tpl_1121_6/20220204_142508.png');
     }
 }
